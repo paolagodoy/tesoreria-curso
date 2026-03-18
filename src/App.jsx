@@ -1,8 +1,8 @@
 import { useState, useEffect } from "react";
 
 // ─── CONFIGURACIÓN ─────────────────────────────────────────────────
-// 👇 Cambia estos nombres por los alumnos reales de tu cursoconst 
-ALUMNOS = [
+// 👇 Cambia estos nombres por los alumnos reales de tu curso
+const  ALUMNOS = [
   "Josefa Aguilera Leyton",
   "Paula Alarcon González",
   "Camila Alvarez Godoy",
