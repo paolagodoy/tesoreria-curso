@@ -1,14 +1,40 @@
 import { useState, useEffect } from "react";
 
 // ─── CONFIGURACIÓN ─────────────────────────────────────────────────
-// 👇 Cambia estos nombres por los alumnos reales de tu curso
-const ALUMNOS = [
-  "Alumno 1","Alumno 2","Alumno 3","Alumno 4","Alumno 5",
-  "Alumno 6","Alumno 7","Alumno 8","Alumno 9","Alumno 10",
+// 👇 Cambia estos nombres por los alumnos reales de tu cursoconst ALUMNOS = [
+  "Josefa Aguilera Leyton",
+  "Paula Alarcon González",
+  "Camila Alvarez Godoy",
+  "Amparo Alvear Montoya",
+  "Valeria Aparcedo Daal",
+  "Sofía Campo Nervi",
+  "Miranda D'aubeterre Herrera",
+  "Amaia Espinosa Astudillo",
+  "Julieta Esponda Ruz",
+  "Amanda Figueroa Miranda",
+  "Amanda Flores Fuentes",
+  "Trinidad Garrido Vásquez",
+  "Fernanda González Higuera",
+  "Paloma Marín Soto",
+  "Catalina Neculpán Sanhueza",
+  "Julieta Núñez Alvarado",
+  "Antonia Ponce Vergara",
+  "Sofía Rios Rojas",
+  "Sofía Romo Araneda",
+  "Gianna Scandiuzzi Valera",
+  "Pascal Stancovich Rebolledo",
+  "Julieta Valenzuela Bustos",
+  "Dominga Vera López",
+  "Dominga Wulliamoz Roa",
+  "Antonella Trejo Rios",
+  "Mayte Horna Barreto",
+  "Eloisa Ibarra González",
+  "Sofía Román Cifuentes",
+  "Amparo Leonor Saavedra Núñez",
 ];
 
 // 👇 Cambia por el link de tu Google Form de comprobantes
-const FORM_COMPROBANTE_URL = "https://forms.google.com/TU_FORM_AQUI";
+const FORM_COMPROBANTE_URL = "https://docs.google.com/forms/d/e/1FAIpQLScx1qbeSz4a9BdJtALl3pSDz0u5D-LavXkc2Lr6fSA8xrNtmw/viewform?usp=publish-editor";
 
 const MESES = ["Enero","Febrero","Marzo","Abril","Mayo","Junio",
                "Julio","Agosto","Septiembre","Octubre","Noviembre","Diciembre"];
